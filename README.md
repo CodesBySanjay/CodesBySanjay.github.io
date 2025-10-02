@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 👋 Hi, I’m Sanjay Praveen  
 
 🚀 **Data Scientist | AI + Cloud | Public Speaking | ex-CodeChef SRM RMP**  
