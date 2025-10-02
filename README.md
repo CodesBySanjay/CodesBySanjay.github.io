@@ -5,7 +5,7 @@
 ---
 
 ## Technical Skills
-Python, Java (Basic), OOP, Machine Learning, Time Series Forecasting, Deep Learning (LSTM, Siamese Networks), NLP, Computer Vision, Data Analysis, Microsoft Azure AI / ML Services, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow
+Python, Java (Basic), OOP, Machine Learning, Time Series Forecasting, Deep Learning (LSTM, Siamese Networks), NLP, Computer Vision, Data Analysis, Microsoft Azure AI / ML Services, Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow
 
 ---
 
@@ -59,12 +59,6 @@ Validated outputs of OCR systems against model predictions. Used **NER tagging**
 - **Microsoft Azure**: AI Fundamentals, AI Engineer Associate  
 - **Python Institute**: PCEP, PCAP  
 - **FreeCodeCamp**: Responsive Web Design
-
----
-
-## Talks & Public Engagements
-- Coding contests and workshops as part of **CodeChef SRM RMP**  
-- Public speaking on **Data Science and AI applications**
 
 ---
 
