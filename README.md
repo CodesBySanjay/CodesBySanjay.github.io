@@ -18,8 +18,6 @@ Python, Java (Basic), OOP, Machine Learning, Time Series Forecasting, Deep Learn
 
 ## Work Experience
 **Data Analyst @ Capgemini (_Sep 2025 – Present_)**  
-- Developed reporting and analysis solutions for enterprise clients.  
-- Applied statistical and ML models to extract insights from structured datasets.
 
 **Data Science Intern @ Tech Mahindra (_Jun 2024 – Jul 2024_)**  
 - Built Time Series Forecasting system for predicting India’s population growth.  
