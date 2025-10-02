@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+
+    <div class="wrapper" style="max-width:700px; margin:2rem auto; font-family:system-ui, sans-serif;">
+
+      <header style="text-align:center; margin-bottom:2rem;">
+        {% if site.profile_pic %}
+          <img src="{{ site.profile_pic | relative_url }}" alt="Profile" style="height:80px; width:80px; border-radius:50%; margin-bottom:1rem;">
+        {% endif %}
+
+        <h1 style="margin:0.5rem 0;"><a href="{{ "/" | absolute_url }}" style="color:black; text-decoration:none;">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+        <p style="margin:0.25rem 0; color:#333;">{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.github.is_project_page %}
+          <p class="view"><a href="{{ site.github.repository_url }}" style="color:black; text-decoration:underline;">View the Project on GitHub</a></p>
+        {% endif %}
+
+        {% if site.show_downloads %}
+          <ul class="downloads" style="list-style:none; padding:0; margin:1rem 0 0 0;">
+            <li><a href="{{ site.github.zip_url }}" style="color:black; text-decoration:none;">Download ZIP</a></li>
+            <li><a href="{{ site.github.tar_url }}" style="color:black; text-decoration:none;">Download TAR</a></li>
+          </ul>
+        {% endif %}
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+      <footer style="text-align:center; margin-top:3rem; font-size:0.9rem; color:#555;">
+        {% if site.github.is_project_page %}
+          <p>Maintained by <a href="{{ site.github.owner_url }}" style="color:black; text-decoration:underline;">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Slate color theme</small></p>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
